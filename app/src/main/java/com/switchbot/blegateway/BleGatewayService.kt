@@ -12,6 +12,10 @@ import android.os.Binder
 import android.os.IBinder
 import android.util.Log
 import fi.iki.elonen.NanoHTTPD
+import fi.iki.elonen.NanoHTTPD.IHTTPSession
+import fi.iki.elonen.NanoHTTPD.Method
+import fi.iki.elonen.NanoHTTPD.Response
+import fi.iki.elonen.NanoHTTPD.newFixedLengthResponse
 import org.json.JSONArray
 import org.json.JSONObject
 import java.util.UUID
